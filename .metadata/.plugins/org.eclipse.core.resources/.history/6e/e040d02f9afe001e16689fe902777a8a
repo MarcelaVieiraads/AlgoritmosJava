@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Qual é a largura do comprimento?");
+		double comp = teclado.nextDouble();
+		System.out.println("Qual é o valor do metro quadrado? ");
+		double area = teclado.nextDouble();
+		double largura= teclado .nextDouble();
+		System.out.println("Qual é o valor do metro quadrado? ");
+		double terreno = area= largura * comp;
+		if(area == largura * comp);
+		System.out.println("o");
+
+	}
+
+}

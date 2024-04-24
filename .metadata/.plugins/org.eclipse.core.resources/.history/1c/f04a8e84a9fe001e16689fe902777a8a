@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+public class Exercicio4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       double n1=10;
+      double n2= 9.0;
+      double n3= 7.5;
+      double n4= 6.0;
+      double n5= 4.0;
+      Scanner teclado = new Scanner(System.in);
+        System.out.println("Digite sua nota de português!");
+        double a = teclado .nextDouble();
+		System.out.println("Digite sua nota de Matemática!");
+		 double b = teclado .nextDouble();
+		System.out.println("Digite sua nota de Ingles!");
+		 double c = teclado .nextDouble();
+		 double media = (a + b + c)/3;
+		System.out.println("Sua média é:" + media);
+		
+		if (media>= 9.0) {
+			System.out.println("conceito  (A)   Parabéns Aprovado!");
+		}
+			else if( n2 <= n3 ) {
+			System.out.println("Conceito  (B)   Aprovado");
+			}
+			else if( n3 <= n4 ) {
+				System.out.println("Conceito  (C)   Aprovado");
+				}
+			else if( n4 <= n5 ) {
+				System.out.println("Conceito  (D)   Reprovado");
+	
+				}
+			else if( n5 <n5  ) {
+				System.out.println("Conceito  (E)   Reprovado");
+				}
+			
+			}
+		
+			
+		
+		
+    
+	}
+
+
